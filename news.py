@@ -37,8 +37,7 @@ def get_top_headlines():
        
         else:
          print("Failed to fetch news:", response.status_code, response.text)
-   
-   
+
 def get_everything():
         c1 = input("Enter the title of the news article: ")
         c2 = input("Enter sorting criteria (relevancy, popularity, publishedAt): ")

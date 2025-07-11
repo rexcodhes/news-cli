@@ -35,6 +35,7 @@ def summary():
 
     try:
         choice = int(input("Enter the article number to summarize: ")) - 1
+
         if choice < 0 or choice >= len(docs):
             raise IndexError("Invalid article number.")
         url = docs[choice].get("url")
@@ -93,11 +94,6 @@ def bias():
     except Exception as e:
         print(f"Error: {e}")
 
-
-
-
-
-
 def main():
     while True:
         print("Welcome to News CLI")
@@ -127,7 +123,6 @@ def main():
                 exit()
             case _:
                 print("Choice not recognized")
-
 
 if __name__ == '__main__':
     main()
