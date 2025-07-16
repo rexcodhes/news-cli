@@ -1,0 +1,3 @@
+MONGODB_URI= Your mongodb uri
+
+GEMINI_API_KEY= Your gemini api key
